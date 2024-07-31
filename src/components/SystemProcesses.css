@@ -1,0 +1,36 @@
+/* src/components/SystemProcesses.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh; /* Full viewport height */
+    padding: 10px;
+  }
+  
+  .table {
+    border-collapse:collapse;
+    width: 100%; /* Adjust width as needed */
+  }
+  
+  .table th, .table td {
+    border: 1px solid #d38686;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+  .table th {
+    background-color: #59e683;
+    text-align: left;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #7f8686;
+  }
+  
+  .table tr:hover {
+    background-color: #cfbbbb;
+  }
+  
